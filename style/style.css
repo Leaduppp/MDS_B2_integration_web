@@ -1,0 +1,17 @@
+.carre {
+    background: red;
+    height: 95px;
+    width: 95px;
+    margin: 10px;
+    border-radius: 20px;
+    border:solid 5px black;
+}
+
+.boite {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.carre.bleu {
+    background: blue;
+}
