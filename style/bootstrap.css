@@ -1,0 +1,121 @@
+body {
+    height: 100vh;
+}
+
+.carre {
+    background-color: rgb(142, 193, 255);
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* transition: all 0.5s ease-in-out; */
+    /* opacity: 0; */
+    /* box-sizing: border-box; */
+    top: 0;
+    left: 0;
+    margin: 10px;
+}
+.carre2 {
+    background-color: rgb(142, 193, 255);
+    height: 200px;
+    width: 200px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    margin: 10px;
+}
+.carre3 {
+    background-color: rgb(142, 193, 255);
+    height: 200px;
+    width: 200px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    margin: 10px;
+}
+.carr {
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+}
+
+@media screen and (min-width:1024px){
+    .carre2 {
+        background: red;
+    }
+}
+
+@media screen and (min-width:1024px){
+    .carr {
+        display: flex;
+        flex-direction:row;
+        justify-content: center;
+        align-items:center;
+    }
+}
+
+
+/* @media screen and (min-width:700px) {
+    .carre {
+        background: rgb(128, 41, 251);
+        width: 100px;        
+        height: 100px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .carre {
+        background: rgb(246, 148, 253);
+        width: 300px; 
+        height: 300px;         
+    }
+} */
+
+
+/* .carre:hover {
+    background: green;
+} */
+
+/* p {
+    padding: 10px 20px;
+    background-color: rgb(217, 255, 0);
+    opacity: 0;
+    transition: 0.5s;
+    margin-top: 0;
+    margin-bottom: 0;
+    position: sticky;
+    top: 0;
+    left: 0;
+    transform: rotate(0deg);
+}
+/* .carre:hover p {
+    opacity: 1;
+    transition-delay: 1s;
+} */
+
+/* body {
+    width: 100vw;
+    height: 100vh;
+    margin:0;
+    position: fixed;
+}
+
+body:hover .carre {
+    background-color: yellow;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    transition-delay: 1s;
+}
+
+body:hover .carre p {
+    opacity: 1;
+    transition-delay: 2s;
+    transform: rotate(-720deg);
+} */ 
